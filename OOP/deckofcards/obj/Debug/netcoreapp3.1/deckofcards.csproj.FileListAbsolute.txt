@@ -1,0 +1,12 @@
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/obj/Debug/netcoreapp3.1/deckofcards.csprojAssemblyReference.cache
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/obj/Debug/netcoreapp3.1/deckofcards.AssemblyInfoInputs.cache
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/obj/Debug/netcoreapp3.1/deckofcards.AssemblyInfo.cs
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/obj/Debug/netcoreapp3.1/deckofcards.csproj.CoreCompileInputs.cache
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/bin/Debug/netcoreapp3.1/deckofcards.deps.json
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/bin/Debug/netcoreapp3.1/deckofcards.runtimeconfig.json
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/bin/Debug/netcoreapp3.1/deckofcards.runtimeconfig.dev.json
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/bin/Debug/netcoreapp3.1/deckofcards.dll
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/bin/Debug/netcoreapp3.1/deckofcards.pdb
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/obj/Debug/netcoreapp3.1/deckofcards.dll
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/obj/Debug/netcoreapp3.1/deckofcards.pdb
+/Users/kevinchen/Desktop/C#/OOP/deckofcards/obj/Debug/netcoreapp3.1/deckofcards.genruntimeconfig.cache

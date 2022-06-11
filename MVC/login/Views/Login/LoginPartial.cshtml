@@ -1,0 +1,14 @@
+@model RegisteredUser
+<form action="/login" method="post">
+
+<span asp-validation-for="Email"></span>
+    <label asp-for="Email">Email</label>
+    <input class="form-control" asp-for="Email">
+
+     <span asp-validation-for="Password"></span>
+    <label asp-for="Password">Password</label>
+    <input class="form-control"asp-for="Password">
+
+    <input type="submit">
+
+</form>

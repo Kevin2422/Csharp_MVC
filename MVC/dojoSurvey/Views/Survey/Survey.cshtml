@@ -1,0 +1,27 @@
+ @model UserData
+ <form action="/result" method="post">
+ <p>
+
+ <span asp-validation-for="name"></span>
+ </p>
+    <label for="name">Name</label>
+    <input class="form-control" asp-for="name">
+    <span asp-validation-for="location"></span>
+    <label for="location">Location</label>
+    <select class="form-control" asp-for="location">
+        <option value="Chicago">Chicago</option>
+        <option value="San Jose">San Jose</option>
+        <option value="Bellevue">Bellevue</option>
+    </select>
+    <span asp-validation-for="language"></span>
+    <label for="language">Favorite Language:</label>
+    <select class="form-control" asp-for="language" >
+        <option value="C#">C#</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select>
+    <span asp-validation-for="Comments"></span>
+    <label for="Comments">Comments</label>
+    <textarea class="form-control" asp-for="Comments" id="" cols="30" rows="10"></textarea>
+    <input type="submit">
+    </form>

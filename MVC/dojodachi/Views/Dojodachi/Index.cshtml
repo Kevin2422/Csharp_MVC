@@ -1,0 +1,41 @@
+@model Dojodachi
+
+
+
+<p>Happiness: @Model.happiness</p>
+<p>Fullness: @Model.fullness</p>
+<p>Energy: @Model.energy</p>
+<p>Meals: @Model.meals</p>
+
+<img src="~/images/@ViewBag.url" alt="img" >
+@if (!Model.DidLose())
+{
+
+<h1>@TempData["message"]</h1>
+}
+else
+{
+    <h1>You lost!</h1>
+    <a href="/clear">Restart</a>
+
+}
+@if (Model.DidWin())
+{
+    <p>Congratulations you won</p>
+    <a href="/clear">Restart</a>
+}
+
+
+@if (Model.DidWin() || Model.DidLose())
+{
+
+}
+
+else
+{
+
+<a asp-action="button" asp-controller="Dojodachi" asp-route-actions="feed">Feed</a>
+<a asp-action="button" asp-controller="Dojodachi" asp-route-actions="play">Play</a>
+<a href="/action/work">Work</a>
+<a href="/action/sleep">Sleep</a>
+}

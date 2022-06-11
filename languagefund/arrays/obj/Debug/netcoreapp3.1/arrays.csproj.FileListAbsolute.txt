@@ -1,0 +1,12 @@
+/Users/kevinchen/Desktop/C#/arrays/bin/Debug/netcoreapp3.1/arrays.deps.json
+/Users/kevinchen/Desktop/C#/arrays/bin/Debug/netcoreapp3.1/arrays.runtimeconfig.json
+/Users/kevinchen/Desktop/C#/arrays/bin/Debug/netcoreapp3.1/arrays.runtimeconfig.dev.json
+/Users/kevinchen/Desktop/C#/arrays/bin/Debug/netcoreapp3.1/arrays.dll
+/Users/kevinchen/Desktop/C#/arrays/bin/Debug/netcoreapp3.1/arrays.pdb
+/Users/kevinchen/Desktop/C#/arrays/obj/Debug/netcoreapp3.1/arrays.csprojAssemblyReference.cache
+/Users/kevinchen/Desktop/C#/arrays/obj/Debug/netcoreapp3.1/arrays.AssemblyInfoInputs.cache
+/Users/kevinchen/Desktop/C#/arrays/obj/Debug/netcoreapp3.1/arrays.AssemblyInfo.cs
+/Users/kevinchen/Desktop/C#/arrays/obj/Debug/netcoreapp3.1/arrays.csproj.CoreCompileInputs.cache
+/Users/kevinchen/Desktop/C#/arrays/obj/Debug/netcoreapp3.1/arrays.dll
+/Users/kevinchen/Desktop/C#/arrays/obj/Debug/netcoreapp3.1/arrays.pdb
+/Users/kevinchen/Desktop/C#/arrays/obj/Debug/netcoreapp3.1/arrays.genruntimeconfig.cache

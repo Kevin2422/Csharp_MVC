@@ -1,0 +1,12 @@
+/Users/kevinchen/Desktop/C#/multtable/bin/Debug/netcoreapp3.1/multtable.deps.json
+/Users/kevinchen/Desktop/C#/multtable/bin/Debug/netcoreapp3.1/multtable.runtimeconfig.json
+/Users/kevinchen/Desktop/C#/multtable/bin/Debug/netcoreapp3.1/multtable.runtimeconfig.dev.json
+/Users/kevinchen/Desktop/C#/multtable/bin/Debug/netcoreapp3.1/multtable.dll
+/Users/kevinchen/Desktop/C#/multtable/bin/Debug/netcoreapp3.1/multtable.pdb
+/Users/kevinchen/Desktop/C#/multtable/obj/Debug/netcoreapp3.1/multtable.csprojAssemblyReference.cache
+/Users/kevinchen/Desktop/C#/multtable/obj/Debug/netcoreapp3.1/multtable.AssemblyInfoInputs.cache
+/Users/kevinchen/Desktop/C#/multtable/obj/Debug/netcoreapp3.1/multtable.AssemblyInfo.cs
+/Users/kevinchen/Desktop/C#/multtable/obj/Debug/netcoreapp3.1/multtable.csproj.CoreCompileInputs.cache
+/Users/kevinchen/Desktop/C#/multtable/obj/Debug/netcoreapp3.1/multtable.dll
+/Users/kevinchen/Desktop/C#/multtable/obj/Debug/netcoreapp3.1/multtable.pdb
+/Users/kevinchen/Desktop/C#/multtable/obj/Debug/netcoreapp3.1/multtable.genruntimeconfig.cache

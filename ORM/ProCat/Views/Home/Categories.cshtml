@@ -1,0 +1,21 @@
+@model Category;
+
+<a href="/">Products</a>
+<p>Categories</p>
+
+<form action="/CCategory" method="post">
+    <span asp-validation-for="Name"></span>
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name">
+    
+    <input type="submit">
+</form>
+
+<h1>Existing Categories</h1>
+@foreach (var item in ViewBag.categories)
+{
+    <div>
+
+    <a href="/category/@item.CategoryId">@item.Name</a>
+    </div>
+}

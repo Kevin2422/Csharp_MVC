@@ -1,0 +1,43 @@
+﻿@using System
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+Chefs 
+<a href="/dishes">Dishes</a>
+
+<h1>Check out our roster of Chefs</h1>
+<a href="/Add">Add chef</a>
+
+<table class="table">
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th># of Dishes</th>
+    </tr>
+</thead>
+@foreach (var chef in ViewBag.Chefs)
+{
+    <tr>
+        <td>@chef.FirstName @chef.LastName</td>
+        @* @{TimeSpan result = DateTime.Now.Subtract(@chef.Birthday)/365;
+        double results = Math.Floor(result.TotalDays);} *@
+    
+
+@{DateTime birth = chef.Birthday;
+DateTime today = DateTime.Today;
+
+
+// Calculate the age.
+var age = today.Year - birth.Year;
+
+// Go back to the year in which the person was born in case of a leap year
+if (birth.Date > today.AddYears(-age)) age--;
+
+        <td>@age</td>
+        }
+        <td>@chef.dishes.Count</td>
+    </tr>
+}
+</table>

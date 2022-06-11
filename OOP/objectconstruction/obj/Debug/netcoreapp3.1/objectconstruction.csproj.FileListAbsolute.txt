@@ -1,0 +1,12 @@
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/obj/Debug/netcoreapp3.1/objectconstruction.csprojAssemblyReference.cache
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/obj/Debug/netcoreapp3.1/objectconstruction.AssemblyInfoInputs.cache
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/obj/Debug/netcoreapp3.1/objectconstruction.AssemblyInfo.cs
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/obj/Debug/netcoreapp3.1/objectconstruction.csproj.CoreCompileInputs.cache
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/bin/Debug/netcoreapp3.1/objectconstruction.deps.json
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/bin/Debug/netcoreapp3.1/objectconstruction.runtimeconfig.json
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/bin/Debug/netcoreapp3.1/objectconstruction.runtimeconfig.dev.json
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/bin/Debug/netcoreapp3.1/objectconstruction.dll
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/bin/Debug/netcoreapp3.1/objectconstruction.pdb
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/obj/Debug/netcoreapp3.1/objectconstruction.dll
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/obj/Debug/netcoreapp3.1/objectconstruction.pdb
+/Users/kevinchen/Desktop/C#/OOP/objectconstruction/obj/Debug/netcoreapp3.1/objectconstruction.genruntimeconfig.cache

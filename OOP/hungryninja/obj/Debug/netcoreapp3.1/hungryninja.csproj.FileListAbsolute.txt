@@ -1,0 +1,12 @@
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/obj/Debug/netcoreapp3.1/hungryninja.csprojAssemblyReference.cache
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/obj/Debug/netcoreapp3.1/hungryninja.AssemblyInfoInputs.cache
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/obj/Debug/netcoreapp3.1/hungryninja.AssemblyInfo.cs
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/obj/Debug/netcoreapp3.1/hungryninja.csproj.CoreCompileInputs.cache
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/bin/Debug/netcoreapp3.1/hungryninja.deps.json
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/bin/Debug/netcoreapp3.1/hungryninja.runtimeconfig.json
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/bin/Debug/netcoreapp3.1/hungryninja.runtimeconfig.dev.json
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/bin/Debug/netcoreapp3.1/hungryninja.dll
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/bin/Debug/netcoreapp3.1/hungryninja.pdb
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/obj/Debug/netcoreapp3.1/hungryninja.dll
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/obj/Debug/netcoreapp3.1/hungryninja.pdb
+/Users/kevinchen/Desktop/C#/OOP/hungryninja/obj/Debug/netcoreapp3.1/hungryninja.genruntimeconfig.cache

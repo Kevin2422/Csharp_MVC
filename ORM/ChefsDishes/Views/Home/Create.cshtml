@@ -1,0 +1,18 @@
+@model Chef
+<a href="/">Home</a>
+<form action="/create" method="post">
+    <span asp-validation-for="FirstName"></span>
+    <label asp-for="FirstName">FirstName </label>
+    <input asp-for="FirstName">
+
+    <span asp-validation-for="LastName"></span>
+    <label asp-for="LastName">FirstName of Chef: </label>
+    <input asp-for="LastName">
+
+    <span asp-validation-for="Birthday"></span>
+    <label asp-for="Birthday">Birthday: </label>
+    <input type="date"  asp-for="Birthday">
+    
+
+    <input type="submit">
+</form>

@@ -1,0 +1,13 @@
+<a href="/Success">Dashboard</a>
+
+<h1>@ViewBag.wedding.WedderOne and @ViewBag.wedding.WedderTwo's wedding</h1>
+<h2>Date: @ViewBag.wedding.DateofWedding.ToString("MMMM dd, yyyy")</h2>
+
+<h2>Guests</h2>
+@foreach (var item in ViewBag.wedding.GuestsWhoRSVPed)
+{
+    <p>
+
+    @item.UserThatRSVPed.FirstName @item.UserThatRSVPed.LastName
+    </p>
+}

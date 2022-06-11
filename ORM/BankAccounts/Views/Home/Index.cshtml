@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+@{
+    if(TempData["Variable"] != null)
+    {
+        <p>@TempData["Variable"]</p>
+    }
+}
+
+<div class="text-center">
+    <a href="/login" class="btn btn-primary">Login</a>
+<div class="text-center">
+    <form action="/register" method="post">
+        <h1 class="display-4">Register to this Cool Site!</h1>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="FirstName">
+            <span asp-validation-for="FirstName"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="LastName">
+            <span asp-validation-for="LastName"></span>
+        </div>
+
+        <div>
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+                asp-for="Email">
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" asp-for="Password">
+            <span asp-validation-for="Password"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" asp-for="ConfirmPassword">
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+</div>
+
+</div>

@@ -1,0 +1,12 @@
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/obj/Debug/netcoreapp3.1/puzzles.csprojAssemblyReference.cache
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/obj/Debug/netcoreapp3.1/puzzles.AssemblyInfoInputs.cache
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/obj/Debug/netcoreapp3.1/puzzles.AssemblyInfo.cs
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/obj/Debug/netcoreapp3.1/puzzles.csproj.CoreCompileInputs.cache
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/bin/Debug/netcoreapp3.1/puzzles.deps.json
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/bin/Debug/netcoreapp3.1/puzzles.runtimeconfig.json
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/bin/Debug/netcoreapp3.1/puzzles.runtimeconfig.dev.json
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/bin/Debug/netcoreapp3.1/puzzles.dll
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/bin/Debug/netcoreapp3.1/puzzles.pdb
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/obj/Debug/netcoreapp3.1/puzzles.dll
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/obj/Debug/netcoreapp3.1/puzzles.pdb
+/Users/kevinchen/Desktop/C#/languagefund/puzzles/obj/Debug/netcoreapp3.1/puzzles.genruntimeconfig.cache

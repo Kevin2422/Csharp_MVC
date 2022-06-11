@@ -1,0 +1,144 @@
+<div class="card">
+    <div class="card-header bg-dark text-light">Level 3</div>
+    <div class="card-body">
+        <p>Using the SportsORM, complete all the following queries and show their results on Level3.cshtml.</p>
+        <ol>
+            <li>...all teams, past and present, that Samuel Evans has played with</li>
+             @foreach (var item in ViewBag.SamEv.AllTeams)
+{
+                        <tr>
+    
+                            <td>@item.TeamOfPlayer.TeamName</td>
+                           
+
+                            
+                        </tr>
+
+                    }
+            <li>...all players, past and present, with the Manitoba Tiger-Cats</li>
+            <table>
+
+            @foreach (var item in ViewBag.TigerCats.AllPlayers)
+{
+                        <tr>
+    
+                            <td>@item.PlayerOnTeam.FirstName @item.PlayerOnTeam.LastName</td>
+                            <td>@item.PlayerOnTeam.CurrentTeam.TeamName</td>
+                           
+
+                            
+                        </tr>
+
+                    }
+            </table>
+            <li>...all players who were formerly (but aren't currently) with the Wichita Vikings</li>
+            <table>
+
+            
+             @foreach (var item in ViewBag.Vikings.AllPlayers)
+{                   
+    if (item.PlayerOnTeam.CurrentTeam.TeamName != "Vikings")
+    {
+
+                        <tr>
+    
+                            <td>@item.PlayerOnTeam.FirstName @item.PlayerOnTeam.LastName</td>
+                            <td>@item.PlayerOnTeam.CurrentTeam.TeamName</td>
+                           
+
+                            
+                        </tr>
+    }
+
+                    }
+            </table>
+            <li>...every team that Jacob Gray played for before he joined the Oregon Colts</li>
+
+             <table>
+
+            
+             @foreach (var item in ViewBag.JGray.AllTeams)
+{                   
+    
+
+                        <tr>
+    
+                        
+                            <td>@item.TeamOfPlayer.TeamName</td>
+                            <td>@ViewBag.JGray.CurrentTeam.TeamName</td>
+                           <td>@ViewBag.JGray.FirstName</td>
+                           <td>@ViewBag.JGray.LastName</td>
+
+                            
+                        </tr>
+    
+
+                    }
+            </table>
+
+            <li>...everyone named "Joshua" who has ever played in the Atlantic Federation of Amateur Baseball Players</li>
+@foreach (var item in ViewBag.Joshua)
+{                   
+
+    
+
+                        <tr>
+    
+                        
+                            <td>@item.FirstName @item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+                            <td>@item.CurrentTeam.CurrLeague.Name</td>
+                    
+
+                            
+                        </tr>
+    
+
+                    }
+            </table>
+
+            <li>...all teams that have had 12 or more players, past and present.</li>
+            <table>
+@foreach (var item in ViewBag.Twelve)
+{                   
+
+    
+
+                        <tr>
+    
+                        
+                            <td>@item.TeamName</td>
+                         
+                    
+
+                            
+                        </tr>
+    
+
+                    }
+            </table>
+          
+            <li>...all players, sorted by the number of teams they've played for</li>
+            @foreach (var item in ViewBag.NumTeams)
+{                   
+
+    
+
+                        <tr>
+    
+                        
+                            <td>@item.FirstName @item.LastName</td>
+                            @{int items = item.AllTeams.Count;}
+                            <td> @items</td>
+                         
+                    
+
+                            
+                        </tr>
+    
+
+                    }
+            </table>
+        </ol>
+    </div>
+</div>

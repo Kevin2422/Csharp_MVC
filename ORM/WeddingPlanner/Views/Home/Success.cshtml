@@ -1,0 +1,56 @@
+@model User
+@using System;
+@using System.Linq;
+
+<h1>Hello @Model.FirstName, Welcome to the Wedding Planner</h1>
+<table class="table">
+<thead>
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guests</th>
+        <th>Action</th>
+    </tr>
+</thead>
+@foreach (var item in ViewBag.weddings)
+{
+    <tr>
+        <td>
+            <a href="/viewWedding/@item.WeddingId">
+            
+            @item.WedderOne & @item.WedderTwo
+            </a>
+        </td>
+        <td>@item.DateofWedding.ToString("MMM dd, yyyy")</td>
+        <td>@item.GuestsWhoRSVPed.Count</td>
+        @if(item.UserId == ViewBag.UserId)
+        {
+            <td><a href="/delete/@item.WeddingId">delete</a></td>
+        }
+        else
+        {
+            Boolean ReservationStatus = false;
+            foreach(var x in item.GuestsWhoRSVPed)
+            {
+                if(x.UserId == ViewBag.UserId)
+                {
+                    ReservationStatus = true;
+                }
+            }
+            if(ReservationStatus)
+            {
+                <td><a href="/UnRSVP/@ViewBag.UserId/@item.WeddingId">UNRSVP</a></td>
+            }
+            else
+            {
+                <td><a href="/RSVP/@ViewBag.UserId/@item.WeddingId">RSVP</a></td>
+            }
+            
+        }
+    </tr>
+}
+</table>
+
+<a href="/addwedding">New wedding</a>
+
+<a href="/logout">Logout</a>

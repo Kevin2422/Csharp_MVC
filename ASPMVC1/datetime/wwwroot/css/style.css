@@ -1,0 +1,10 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: yellowgreen;
+
+    margin: 0px auto;
+}
+p {
+    text-align: center;
+}

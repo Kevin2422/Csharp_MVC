@@ -1,0 +1,31 @@
+@model User
+
+
+<h1>Welcome, "@ViewBag.User.FirstName"</h1>
+<p>Current Balanace : "@ViewBag.CurrentBalance"</p>
+<p>
+<partial name="_TransactionPartial"/>
+</p>
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Amount</th>
+                <th scope="col">Date</th>
+            </tr>
+            @foreach(var x in ViewBag.User.MoneyTransfer)
+            {
+                string money = string.Format("{0:.##}", x.Amount);
+                <tr>
+
+                    <td scope="col">$ @money</td>
+                    <td scope="col">@x.CreatedAt</td>
+                </tr>
+            }
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>

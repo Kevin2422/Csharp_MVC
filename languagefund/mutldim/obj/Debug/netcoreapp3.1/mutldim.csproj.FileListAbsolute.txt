@@ -1,0 +1,12 @@
+/Users/kevinchen/Desktop/C#/mutldim/bin/Debug/netcoreapp3.1/mutldim.deps.json
+/Users/kevinchen/Desktop/C#/mutldim/bin/Debug/netcoreapp3.1/mutldim.runtimeconfig.json
+/Users/kevinchen/Desktop/C#/mutldim/bin/Debug/netcoreapp3.1/mutldim.runtimeconfig.dev.json
+/Users/kevinchen/Desktop/C#/mutldim/bin/Debug/netcoreapp3.1/mutldim.dll
+/Users/kevinchen/Desktop/C#/mutldim/bin/Debug/netcoreapp3.1/mutldim.pdb
+/Users/kevinchen/Desktop/C#/mutldim/obj/Debug/netcoreapp3.1/mutldim.csprojAssemblyReference.cache
+/Users/kevinchen/Desktop/C#/mutldim/obj/Debug/netcoreapp3.1/mutldim.AssemblyInfoInputs.cache
+/Users/kevinchen/Desktop/C#/mutldim/obj/Debug/netcoreapp3.1/mutldim.AssemblyInfo.cs
+/Users/kevinchen/Desktop/C#/mutldim/obj/Debug/netcoreapp3.1/mutldim.csproj.CoreCompileInputs.cache
+/Users/kevinchen/Desktop/C#/mutldim/obj/Debug/netcoreapp3.1/mutldim.dll
+/Users/kevinchen/Desktop/C#/mutldim/obj/Debug/netcoreapp3.1/mutldim.pdb
+/Users/kevinchen/Desktop/C#/mutldim/obj/Debug/netcoreapp3.1/mutldim.genruntimeconfig.cache

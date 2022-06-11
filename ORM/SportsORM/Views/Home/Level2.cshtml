@@ -1,0 +1,134 @@
+<div class="card">
+    <div class="card-header bg-dark text-light">Level 2</div>
+    <div class="card-body">
+        <p>Using the SportsORM, complete all the following queries and show their results on Level2.cshtml.</p>
+        <ol>
+            <li>...all teams in the Atlantic Soccer Conference</li>
+                        
+                <table>
+@foreach (var item in ViewBag.AtlanticSoccer)
+{
+                        <tr>
+    
+                            <td>@item.TeamName</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+
+
+
+            <li>...all (current) players on the Boston Penguins (Hint: Boston is the Location, Penguins is the TeamName)</li>
+            <table>
+@foreach (var item in ViewBag.Penguins)
+{
+                        <tr>
+    
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+
+            <li>...all (current) players in the International Collegiate Baseball Conference</li>
+        <table>
+            @foreach (var item in ViewBag.BasebalCol)
+{
+                        <tr>
+    
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+            <li>...all (current) players in the American Conference of Amateur Football with last name "Lopez"</li>
+            <table>
+            @foreach (var item in ViewBag.Lopez)
+{
+                        <tr>
+    
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+            <li>...all football players</li>
+             <table>
+            @foreach (var item in ViewBag.FootballP)
+{
+                        <tr>
+    
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+
+            <li>...all teams with a (current) player named "Sophia"</li>
+             <table>
+            @foreach (var item in ViewBag.Sophia)
+{
+                        <tr>
+    
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+            <li>...all leagues with a (current) player named "Sophia"</li>
+            <table>
+            @foreach (var item in ViewBag.Sophia1)
+{
+                        <tr>
+    
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+                            <td>@item.CurrentTeam.CurrLeague.Name</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+            <li>...everyone with the last name "Flores" who DOESN'T (currently) play for the Washington Roughriders</li>
+            <table>
+             @foreach (var item in ViewBag.Flores)
+{
+                        <tr>
+    
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.CurrentTeam.TeamName</td>
+                            <td>@item.CurrentTeam.CurrLeague.Name</td>
+
+                            
+                        </tr>
+
+                    }
+        </table>
+        </ol>
+    </div>
+</div>

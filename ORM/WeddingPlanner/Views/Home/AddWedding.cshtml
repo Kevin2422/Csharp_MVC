@@ -1,0 +1,24 @@
+@model Wedding;
+
+<form action="/CreateWedding" method="post">
+   
+    <input asp-for="UserId" type="hidden" value="@ViewBag.UserId">
+
+    <span asp-validation-for="WedderOne"></span>
+    <label asp-for="WedderOne">Wedder One </label>
+    <input asp-for="WedderOne">
+
+    <span asp-validation-for="WedderTwo"></span>
+    <label asp-for="WedderTwo">Wedder Two </label>
+    <input asp-for="WedderTwo">
+
+    <span asp-validation-for="DateofWedding"></span>
+    <label asp-for="DateofWedding">Date </label>
+    <input asp-for="DateofWedding">
+
+    <span asp-validation-for="WeddingAddress"></span>
+    <label asp-for="WeddingAddress">Wedding Address</label>
+    <input asp-for="WeddingAddress">
+
+    <input type="submit">
+</form>
